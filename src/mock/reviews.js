@@ -27,7 +27,7 @@ export const reviews = [
 			'Outstanding service provider with the motive of attaining client contentment.'
 	},
 	{
-		user: 'mohammed asif',
+		user: 'Nadiya nigam',
 		gender: 'm',
 		rating: 5,
 		review:
