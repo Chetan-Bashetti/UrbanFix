@@ -1,6 +1,6 @@
 export const reviews = [
 	{
-		user: 'bijaylakshmi swain',
+		user: 'Nanditha SR',
 		gender: 'f',
 		rating: 4,
 		review:
