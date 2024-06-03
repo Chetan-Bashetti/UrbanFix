@@ -4,8 +4,9 @@ import ErrorIcon from '@mui/icons-material/Error';
 
 import './Pricing.css';
 import { PRIMARY_COLOR } from '../../mock/style';
+import MuiButton from '../Button/MuiButton';
 
-const Pricing = ({ title = 'AC', appliaceData }) => {
+const Pricing = ({ title = 'AC', appliaceData, handleBookingDialogBox }) => {
 	const [visitingChanrges] = React.useState({
 		charges: 250,
 		isSelected: false
@@ -23,7 +24,6 @@ const Pricing = ({ title = 'AC', appliaceData }) => {
 
 	React.useEffect(() => {
 		const Script = document.createElement('script');
-		//id should be same as given to form element
 		const Form = document.getElementById('donateForm');
 		Script.setAttribute(
 			'src',
@@ -39,20 +39,6 @@ const Pricing = ({ title = 'AC', appliaceData }) => {
 		if (appliaceData?.charges?.length) setCleaningCharges(appliaceData.charges);
 	}, [appliaceData]);
 
-	// const selectVisitingCharges = () => {
-	// 	setVisitingCharges({
-	// 		...visitingChanrges,
-	// 		isSelected: !visitingChanrges.isSelected
-	// 	});
-	// };
-
-	// const selectServiceCharges = () => {
-	// 	setServiceCharges({
-	// 		...serviceCharges,
-	// 		isSelected: !serviceCharges.isSelected
-	// 	});
-	// };
-
 	React.useEffect(() => {
 		let totalAmount = 0;
 		if (visitingChanrges.isSelected)
@@ -63,13 +49,6 @@ const Pricing = ({ title = 'AC', appliaceData }) => {
 			eachCharge.isSelected ? (totalAmount += eachCharge.charge) : 0
 		);
 	}, [visitingChanrges, serviceCharges, cleaningCharges]);
-
-	// const handleCleaningCharges = (id) => {
-	// 	let localCharges = [...cleaningCharges];
-	// 	localCharges[id].isSelected = !localCharges[id].isSelected;
-	// 	console.log(localCharges);
-	// 	setCleaningCharges(localCharges);
-	// };
 
 	return (
 		<div className='pricing-wrapper'>
@@ -165,16 +144,12 @@ const Pricing = ({ title = 'AC', appliaceData }) => {
 				) : (
 					''
 				)}
-
-				{/* <div className='total-service-price'>
-					<div className='grand-total'>Total</div>
-					<div className='grand-total-price'>
-						<div className='grand-total'>Rs</div>
-						<div className='total-amount'>{totalCharges}</div>
-						<div className='grand-total'>only</div>
-					</div>
-				</div> */}
-				<div style={{ marginTop: '2em' }}>
+				<div className='footer-actions'>
+					<MuiButton
+						title='Continue without payment'
+						onClick={handleBookingDialogBox}
+					/>
+					<div className='action-devider'></div>
 					{mounted ? <form id='donateForm'></form> : null}
 				</div>
 			</div>
