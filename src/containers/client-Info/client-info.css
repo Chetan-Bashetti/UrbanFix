@@ -13,12 +13,22 @@
 	display: contents;
 }
 
+.footer {
+	text-align: center;
+}
+
+.footer-img {
+	height: 60px;
+	width: 200px;
+}
+
 @media screen and (max-width: 699px) {
 	.footer-wrapper {
-		flex-direction: column;
+		flex-direction: column-reverse;
 		padding: 1em 2em;
 	}
 	.footer-logo {
-		margin-top: 1em;
+		display: flex;
+		margin-bottom: 1em;
 	}
 }

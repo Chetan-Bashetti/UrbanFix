@@ -13,7 +13,7 @@ const ClientInfo = () => {
 					href='https://tecnacy.netlify.app/'
 					style={{
 						marginLeft: '0.3em',
-						color: 'white'
+						color: 'var(--secondary-color)'
 					}}
 				>
 					Tecnacy Solutions
@@ -23,7 +23,7 @@ const ClientInfo = () => {
 				<img
 					src={require('../../assets/images/UrbanFix.jpeg')}
 					alt='UrbanMES'
-					style={{ height: 60, width: 150 }}
+					className='footer-img'
 				/>
 			</div>
 		</div>
