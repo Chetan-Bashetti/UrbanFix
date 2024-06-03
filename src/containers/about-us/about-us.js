@@ -21,7 +21,7 @@ const AboutUs = () => {
 			<div className='about-us-content-map'>
 				<div className='map'>
 					<iframe
-						src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3887.37697833258!2d77.67902699999999!3d13.011649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDAwJzQxLjkiTiA3N8KwNDAnNDQuNSJF!5e0!3m2!1sen!2smy!4v1712975531570!5m2!1sen!2smy'
+						src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d413.4628193375218!2d75.72632057655326!3d16.822849157066123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc65569ae5ff589%3A0x2e738f5ab2d2a286!2sNice%20parlour!5e0!3m2!1sen!2smy!4v1717409445530!5m2!1sen!2smy'
 						width='100%'
 						height='450'
 						style={{ border: 0, outline: 'none' }}
@@ -44,7 +44,7 @@ const AboutUs = () => {
 					<div className='each-info'>
 						<div className='about-us-content-title'>Timings</div>
 						<div className='about-us-content-desc'>
-							Monday to Friday 10:00 am to 07:00 pm
+							Monday to Friday 9.00 AM to 10.00 PM
 						</div>
 					</div>
 					<div className='each-info'>
@@ -54,13 +54,13 @@ const AboutUs = () => {
 								style={{ fontSize: '3em', color: '#01e676' }}
 								onClick={() => {
 									window.open(
-										`https://wa.me/+918710048980?text=Hi, I wanted to check if this UrbanMES?`,
+										`https://wa.me/+918217288132?text=Hi, I wanted to check if this UrbanFIX?`,
 										'_blank'
 									);
 								}}
 							/>
 							<div style={{ width: 20 }} />
-							<a href='tel:+918710048980'>
+							<a href='tel:+918217288132'>
 								<CallIcon
 									style={{
 										fontSize: '3em',
