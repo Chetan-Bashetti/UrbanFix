@@ -33,7 +33,7 @@ nav ul {
 
 nav ul li {
 	margin-right: 20px;
-	color: #e6eff7;
+	color: var(--secondary-color);
 }
 
 .mobile-menu-icon {
