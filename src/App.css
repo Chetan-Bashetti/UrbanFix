@@ -1,6 +1,6 @@
 :root {
-	--primary-bg: coral;
-	/* --primary-bg: #1469e7; */
+	--primary-bg: orange;
+	--secondary-color: black;
 }
 
 .App {
