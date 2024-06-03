@@ -9,7 +9,7 @@ const BannerDescription = ({ name = '', handleOpen }) => {
 	return (
 		<>
 			<div className={name}>
-				<div className='product-name'>UrbanFIX</div>
+				<div className='product-name'>UrbanFix</div>
 				<div className='product-desc'>Get quality services on demand</div>
 				<div className='product-desc-2'>
 					Experienced, hand-picked professionals to serve you at your doorstep

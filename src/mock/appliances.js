@@ -5,82 +5,26 @@ export const appliancesData = [
 		desc: 'Service, installation and Repairing services of TV, Fridge,	Microwave, Air conditioner and etc..',
 		sub_services: [
 			{
-				title: 'TV',
-				key: 'tv',
-				desc: 'Service, installation and Repairing services of TV'
-			},
-			{
-				title: 'Fridge',
+				title: 'Refrigerator',
 				key: 'fridge',
 				desc: 'Service, installation and Repairing services of Fridge',
-				charges: [
-					{
-						title: 'Single door',
-						charge: 400,
-						isSelected: false
-					},
-					{
-						title: 'Double door',
-						charge: 650,
-						isSelected: false
-					},
-					{
-						title: 'Side by side',
-						charge: 1000,
-						isSelected: false
-					}
-				]
+				charges: []
 			},
 			{
 				title: 'Air conditioner',
 				key: 'ac',
 				desc: 'Service, installation and Repairing services of Air conditioner',
-				charges: [
-					{
-						title: 'AC cleaning',
-						charge: 650,
-						isSelected: false
-					}
-				]
+				charges: []
 			},
 			{
-				title: 'Microwave oven',
-				key: 'microwave_oven',
-				desc: 'Service, installation and Repairing services of Microwave oven',
-				charges: [
-					{
-						title: 'Solo or grill model',
-						charge: 500,
-						isSelected: false
-					},
-					{
-						title: 'convention',
-						charge: 650,
-						isSelected: false
-					}
-				]
+				title: 'Fan',
+				key: 'fan',
+				desc: 'Service, installation and Repairing services of fans'
 			},
 			{
-				title: 'Washing Machine',
-				key: 'washing_machine',
-				desc: 'Service, installation and Repairing services of Washing Machine',
-				charges: [
-					{
-						title: 'Descaler cleaning',
-						charge: 500,
-						isSelected: false
-					},
-					{
-						title: 'Drum cleaning',
-						charge: 1500,
-						isSelected: false
-					}
-				]
-			},
-			{
-				title: 'Laptop',
-				key: 'laptop',
-				desc: 'Service and Repairing services of Laptop'
+				title: 'Mixture',
+				key: 'mixture',
+				desc: 'Service and Repairing services of mixture'
 			}
 		]
 	},
@@ -90,76 +34,98 @@ export const appliancesData = [
 		desc: 'All type painting services avalilable',
 		sub_services: [
 			{
-				title: 'Full home painting service',
-				key: 'full_home_painting',
-				desc: 'Painting services full home'
+				title: 'Complete painting',
+				key: 'complete_painting',
+				desc: 'Full home painting services'
 			},
 			{
-				title: 'Few walls or rooms painting services',
-				key: 'few_walls_painting',
-				desc: 'Painting services few_walls or rooms'
+				title: 'Man power',
+				key: 'man_power',
+				desc: 'Get skilled work force'
 			},
 			{
-				title: 'Water proofing services',
-				key: 'water_proofing',
-				desc: ''
-			},
-			{
-				title: 'Interior and exterior painting services',
-				key: 'interior_and_exterior',
-				desc: ''
-			},
-			{
-				title: 'Interior decorators',
-				key: 'interior_decorators',
-				desc: ''
+				title: 'Patchwork',
+				key: 'color_patch_work',
+				desc: 'Will also provide patch work/selected area paint work'
 			}
 		]
 	},
 	{
-		title: 'Prestige construction',
+		title: 'Construction / Civil',
 		key: 'key_project',
-		desc: 'Prestige construction projects',
+		desc: 'Construction / Civil projects',
 		sub_services: [
 			{
-				title: 'Site preparation phase',
-				key: 'site_preparation_phase',
-				desc: 'leveling and digging for foundation to be laid'
+				title: 'Man power',
+				key: 'man_power',
+				desc: 'Skilled workforce will be provided'
 			},
 			{
-				title: 'Foundation phase',
-				key: 'foundation_phase',
-				desc: 'pouring concrete that supports the weight of the building with best qualitity raw materials at appropriate ratios'
+				title: 'Planning',
+				key: 'planning',
+				desc: 'Will provide planning based on site and dimensions'
 			},
 			{
-				title: 'Framing phase',
-				key: 'framing_phase',
-				desc: 'designs and builds the ceiling, sheathing to close off the opn studs'
+				title: 'Contract',
+				key: 'contract',
+				desc: 'Contract can be made to build your dream projects'
 			},
 			{
-				title: 'Exterior phase',
-				key: 'exterior_phase',
-				desc: 'installing outdoor patios/ balconies/terrace garden,etc'
-			},
-			{
-				title: 'Interior phase',
-				key: 'interior_phase',
-				desc: 'installing kitchen cabinets, dry floor, countertops, painting services'
+				title: 'Supervision',
+				key: 'supervision',
+				desc: 'Will supervise your ongoing construction from start to finish'
 			}
 		]
 	},
 
 	{
-		title: 'CCTV',
+		title: 'Electricity',
 		key: 'cctv_services',
-		desc: 'cctv fitting & services',
-		sub_services: []
+		desc: 'Cable fitting and electricity services',
+		sub_services: [
+			{
+				title: 'Patchwork',
+				key: 'power',
+				desc: 'Will also provide patch work/selected area paint work'
+			},
+			{
+				title: 'Old / new wiring',
+				key: 'wiring',
+				desc: 'Will give soluations to old / new wiring'
+			},
+			{
+				title: 'Electricity connection',
+				key: 'patch_work',
+				desc: 'Will give soluations to old / new wiring'
+			}
+		]
 	},
 
 	{
-		title: 'Interear designers',
-		key: 'interear_designers',
+		title: 'Auto/Cab (Rikshaw and Car both)',
+		key: 'cab',
 		desc: 'kitchen & wardroof fitting & services',
-		sub_services: []
+		sub_services: [
+			{
+				title: 'Local rental',
+				key: 'car_rental',
+				desc: 'Provide rides for local rental'
+			},
+			{
+				title: 'Pickup / Drop',
+				key: 'pickup_drop',
+				desc: 'Provide pickup and drop services'
+			},
+			{
+				title: 'Outstation',
+				key: 'outstation',
+				desc: 'Provide rides outstation events and functions'
+			},
+			{
+				title: 'Tourist Package',
+				key: 'tour_package',
+				desc: 'Tourist Packages available for exciting prices'
+			}
+		]
 	}
 ];
