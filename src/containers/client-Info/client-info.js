@@ -21,7 +21,7 @@ const ClientInfo = () => {
 			</div>
 			<div className='footer-logo'>
 				<img
-					src={require('../../assets/images/MES Logo.jpg')}
+					src={require('../../assets/images/UrbanFix.jpeg')}
 					alt='UrbanMES'
 					style={{ height: 60, width: 150 }}
 				/>

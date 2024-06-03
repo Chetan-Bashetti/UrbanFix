@@ -31,7 +31,7 @@ const NavBar = () => {
 		<header>
 			<div className='logo'>
 				<img
-					src={require('../../assets/images/MES Logo.jpg')}
+					src={require('../../assets/images/UrbanFix.jpeg')}
 					alt='UrbanMES'
 					className='logo-img'
 				/>
@@ -41,7 +41,7 @@ const NavBar = () => {
 				{isMenuOpen ? (
 					<div className='logo-sm'>
 						<img
-							src={require('../../assets/images/MES Logo.jpg')}
+							src={require('../../assets/images/UrbanFix.jpeg')}
 							alt='UrbanMES'
 							className='logo-img'
 							style={{ paddingBottom: '0.6em' }}

@@ -1,10 +1,10 @@
 import './App.css';
-import PhoneAuth from './containers';
+import MainWrapper from './containers';
 
 function App() {
 	return (
 		<div className='App'>
-			<PhoneAuth />
+			<MainWrapper />
 		</div>
 	);
 }
