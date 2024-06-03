@@ -62,7 +62,7 @@ const ContactUs = ({ handleClose, setSnackBar }) => {
 
 		setSubmit(true);
 		emailjs
-			.sendForm('service_bfgin47', 'template_ji5tiff', form.current, {
+			.sendForm('service_xhnxf5u', 'template_gszxzcr', form.current, {
 				publicKey: '2O3qUf1f8rBxFG_6N'
 			})
 			.then(
