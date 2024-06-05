@@ -70,7 +70,6 @@ const Pricing = ({ title = 'AC', appliaceData, handleBookingDialogBox }) => {
 							? `1px solid ${PRIMARY_COLOR}`
 							: '1px solid transparent'
 					}}
-					// onClick={() => selectVisitingCharges()}
 				>
 					<div style={{ display: 'flex', alignItems: 'center' }}>
 						<CheckCircleIcon
@@ -91,7 +90,6 @@ const Pricing = ({ title = 'AC', appliaceData, handleBookingDialogBox }) => {
 							? `1px solid ${PRIMARY_COLOR}`
 							: '1px solid transparent'
 					}}
-					// onClick={() => selectServiceCharges()}
 				>
 					<div style={{ display: 'flex', alignItems: 'center' }}>
 						<CheckCircleIcon
@@ -125,7 +123,6 @@ const Pricing = ({ title = 'AC', appliaceData, handleBookingDialogBox }) => {
 										? `1px solid ${PRIMARY_COLOR}`
 										: '1px solid transparent'
 								}}
-								// onClick={() => handleCleaningCharges(id)}
 							>
 								<div style={{ display: 'flex', alignItems: 'center' }}>
 									<CheckCircleIcon
