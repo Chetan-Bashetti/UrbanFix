@@ -14,7 +14,7 @@ const FabIcon = () => {
 						style={{ fontSize: '3em', color: 'white' }}
 						onClick={() => {
 							window.open(
-								`https://wa.me/+918217288132?text=Hi, I wanted to check if this UrbanMES?`,
+								`https://wa.me/+918217288132?text=Hi, I wanted to check if this UrbanFIX?`,
 								'_blank'
 							);
 						}}
