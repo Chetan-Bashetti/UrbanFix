@@ -8,7 +8,7 @@ import MuiButton from '../Button/MuiButton';
 
 const Pricing = ({ title = 'AC', appliaceData, handleBookingDialogBox }) => {
 	const [visitingChanrges] = React.useState({
-		charges: 250,
+		charges: 100,
 		isSelected: false
 	});
 
@@ -58,7 +58,7 @@ const Pricing = ({ title = 'AC', appliaceData, handleBookingDialogBox }) => {
 			<div className='note-wrapper'>
 				<div className='note'>
 					<ErrorIcon style={{ marginRight: '0.2em' }} />
-					Note: Confirm the site visit by paying ₹250. On successful payment our
+					Note: Confirm the site visit by paying ₹100. On successful payment our
 					representative will call you.
 				</div>
 			</div>
